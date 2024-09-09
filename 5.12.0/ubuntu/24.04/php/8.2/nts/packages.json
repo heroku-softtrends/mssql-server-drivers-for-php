@@ -1,0 +1,34 @@
+{
+	"packages": [
+		[
+			{
+				"name": "heroku-sys/ext-sqlsrv",
+				"version": "5.12.0",
+				"type": "heroku-sys-php-extension",
+				"require": {
+					"php": "^8.2",
+					"heroku/installer-plugin": "^1.2.0"
+				},
+				"dist": {
+					"type": "heroku-sys-tar",
+					"url": "https://github.com/heroku-softtrends/mssql-server-drivers-for-php/raw/main/5.12.0/ubuntu/24.04/php/8.2/nts/ext-sqlsrv-5.12.0_php-8.2.tar.gz"
+				},
+				"time": "2022-08-29"
+			},
+			{
+				"name": "heroku-sys/ext-pdo_sqlsrv",
+				"version": "5.12.0",
+				"type": "heroku-sys-php-extension",
+				"require": {
+					"php": "^8.2",
+					"heroku/installer-plugin": "^1.2.0"
+				},
+				"dist": {
+					"type": "heroku-sys-tar",
+					"url": "https://github.com/heroku-softtrends/mssql-server-drivers-for-php/raw/main/5.12.0/ubuntu/24.04/php/8.2/nts/ext-pdo_sqlsrv-5.12.0_php-8.2.tar.gz"
+				},
+				"time": "2022-08-29"
+			}
+		]
+	]
+}
